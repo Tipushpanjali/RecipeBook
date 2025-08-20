@@ -70,7 +70,7 @@ function timing() {
             timeLeft: 5,
             countdown: null,
             isRunning: false,
-            initialTime: 300,
+            initialTime: 5,
         };
 
         cook.addEventListener("click", () => {

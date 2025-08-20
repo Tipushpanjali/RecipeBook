@@ -136,3 +136,80 @@ ul{
 li{
     font-weight: 400 !important;
 }
+@media screen and (max-width: 480px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav img {
+        height: 40px;
+        width: 40px;
+    }
+    .addon {
+        flex-direction: column;
+        gap: 15px;
+        margin: 10px 0;
+    }
+    .headd {
+        font-size: 24px;
+    }
+    .title {
+        font-size: 32px;
+    }
+    .recipe {
+        margin: 10px 0;
+        padding: 10px;
+    }
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .desc {
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+    .food {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ========================= */
+/* 📱 Tablet (max-width: 768px) */
+/* ========================= */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .addon {
+        gap: 5vw;
+        margin: 10px;
+    }
+    .headd {
+        font-size: 32px;
+    }
+    .title {
+        font-size: 45px;
+    }
+    .recipe {
+        margin: 15px 0;
+        padding: 15px;
+    }
+    .box {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .desc {
+        margin-left: 0;
+        text-align: left;
+    }
+    .food {
+        max-width: 90%;
+        height: auto;
+    }
+}
